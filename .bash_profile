@@ -4,6 +4,7 @@
 # source .bash/.bash_profile
 
 alias chrome="open -a \"Google Chrome\""
+web() { chrome http://$1; }
 google() { 
     term=""
     for a in $@; do term="$term$a+"; done;
