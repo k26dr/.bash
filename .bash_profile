@@ -1,7 +1,7 @@
 # General
 
 # Add the following line to ~/.bash_profile to source this file
-# source .bash/.bash_profile
+# source ~/.bash/.bash_profile
 
 alias chrome="open -a \"Google Chrome\""
 web() { chrome http://$1; }
