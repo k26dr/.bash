@@ -33,4 +33,4 @@ alias subl="open -a \"Sublime Text\""
 display () { chrome https://github.com/ga-students/WDI_DTLA_7/tree/master/work/w0$1/d0$2; }
 
 # To SSH into my EC2 nano instance
-alias ssh-ec2-nano="ssh -i ~/.ssh/ec2_nano.pem ec2-user@ec2-54-200-59-74.us-west-2.compute.amazonaws.com"
+alias ssh-ec2-nano="ssh -i ~/.ssh/ec2_nano.pem ec2-user@ec2-54-187-194-170.us-west-2.compute.amazonaws.com"
