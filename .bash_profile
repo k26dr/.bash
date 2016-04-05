@@ -25,8 +25,9 @@ alias typora="open -a typora"
 
 # WDI specific
 
-alias picker="python ~/code/lucky7s/student-picker/student-picker.py"
-wdi() { cd ~/code/lucky7s/workspace/w0$1/d0$2; }
+alias picker="python ~/teach/student-picker/student-picker.py"
+alias extract-md="~/code/extract-md/extract.sh"
+wdi() { cd ~/code/wdi9/workspace/w0$1/d0$2; }
 alias subl="open -a \"Sublime Text\""
 
 display () { chrome https://github.com/ga-students/WDI_DTLA_7/tree/master/work/w0$1/d0$2; }
