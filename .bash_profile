@@ -34,5 +34,15 @@ alias subl="open -a \"Sublime Text\""
 display () { chrome https://github.com/ga-students/WDI_DTLA_7/tree/master/work/w0$1/d0$2; }
 
 # To SSH into my EC2 nano instances
-alias ssh-ec2-nano="ssh -i ~/.ssh/ec2_nano.pem ec2-user@ec2-54-187-194-170.us-west-2.compute.amazonaws.com"
+alias ssh-ec2="ssh -i "~/.ssh/student_assess.pem" ubuntu@ec2-54-214-231-95.us-west-2.compute.amazonaws.com"
 alias ssh-student-assess="ssh -i ~/.ssh/student_assess.pem ec2-user@ec2-54-201-137-244.us-west-2.compute.amazonaws.com"
+
+# Make python3 default
+alias python=python3
+alias pip=pip3
+
+# Go code directory
+export GOPATH=$HOME/code/go
+
+# Add alias for octave
+alias octave=/Applications/Octave-cli.app/Contents/MacOs/Octave
